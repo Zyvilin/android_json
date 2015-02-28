@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
 			if (isOnline()) {
 				requestData("http://services.hanselandpetal.com/feeds/flowers.xml");
 			} else {
-				Toast.makeText(this, "Network isn't available", Toast.LENGTH_LONG).show();
+				Toast.makeText(this, "Network isn't available yet !", Toast.LENGTH_LONG).show();
 			}
 		}
 		return false;
